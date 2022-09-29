@@ -10,7 +10,7 @@ const addNote = (title, body) => {
     if (!duplicateNote) {
         notes.push({
             title: title,
-            body: body
+           
         })
         saveNotes(notes)
         console.log(chalk.green.inverse('New note added!'))
